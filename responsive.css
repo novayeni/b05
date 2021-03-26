@@ -1,0 +1,78 @@
+@media all and (max-width: 1000px){
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+    .explore-icon p{
+        font-size:12px;
+    }
+    .explores{
+        width:50%;
+    }
+    footer{
+        height:100%;
+    }
+    .container-footer{
+        display: block;
+        text-align:center;
+    }
+    .footer-menu li{
+       float:left;
+    }
+    .footer-menu ul{
+        justify-content : center;
+    }
+}
+@media all and (max-width: 670px){
+    footer{
+        height:100%;
+    }
+    .container-footer{
+        display: block;
+        text-align:center;
+    }
+    .footer-menu li{
+        float:left;
+    }
+    .footer-menu ul{
+        justify-content : center;
+    }
+    .explore-icon p{
+        font-size:12px;
+    }
+    .email{
+        width:100%;
+    }
+    .form-submit{
+        width:100%;
+    }
+    .explores{
+        width:100%;
+    }
+    .gallery{
+        width:100%;
+    }
+    .header-right{
+        display:  none;
+    }
+    .menu-icon{
+        display:  block;
+    }
+    .top-wrapper h1 {
+        position: relative;
+        top : 85px;
+        font-size: 32px;
+        letter-spacing: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .btn {
+        width: 100%;
+        font-size:12px;
+      }
+    .abouts-gambar img{
+        width: 100%;
+    }
+    .text-abouts{
+        width: 100%;
+    }
+}

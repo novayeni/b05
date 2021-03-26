@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Verdana;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+  }
+.clear {
+    clear: left;
+}
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+.logo {
+    width: 100px;
+}
+.header-left{
+    float: left;
+    margin-top: 20px;
+    color: white;
+}
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+.header-right a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.top-wrapper{
+    padding: 180px 0 280px 0;
+    background-image: url("./img/bg-wallpaperindonesia.jpg");
+    background-size: cover;
+    filter: contrast(150%);
+    color: white;
+    text-align: center;
+}
+.top-wrapper h1 {
+    position: relative;
+    top : 85px;
+    font-size: 55px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.btn-wrapper{
+    text-align: center;
+    position: relative;
+    top : 160px;
+}
+.btn {
+    padding: 12px 100px;
+    color: white;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-align: center;
+    font-size:15px;
+}
+.btn:hover {
+    opacity: 1;
+}
+.fas {
+    margin-right: 5px;
+}
+.menu-icon {
+    display : none;
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+}
+.about{
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(68, 67, 67);
+}
+.heading{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.heading h2 span{
+    color: rgb(170, 114, 9);
+}
+.heading h2{
+    color : white;
+}
+.abouts-gambar img{
+    float: left;
+    width: 35%;
+    border-radius: 4px;
+    margin-right:40px;
+}
+.text-abouts{
+    float: left;
+    width: 50%;
+}
+.text-abouts h3 span{
+    color: rgb(170, 114, 9);
+}
+.text-abouts h3{
+    color:white;
+}
+.text-abouts p{
+    color:white;
+    font-size:12px;
+    padding-bottom: 25px;
+}
+.tour{
+    float: left;
+}
+.explore-our{
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url("./img/bg-card.jpg");
+    background-size: cover;
+    color: white;
+}
+.heading1{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.heading1 h2 span{
+    color: rgb(170, 114, 9);
+}
+.heading1 h2{
+    color : black;
+}
+.list-explore{
+    width: 100%;
+    display: table;
+    clear: both;
+}
+.explores{
+    float: left;
+    width: 31%;
+    height: 450px;
+    margin:10px;
+    background-color:#2d3436;
+    border-radius: 10px;
+    box-shadow: 0 7px #242829;
+}
+.explore-icon{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+.explore-icon p {
+    position: absolute;
+    top: 0;
+    width: 30%;
+    height: 10%;
+    background-color:#2d3436;
+    border-radius: 10px;
+    color: white;
+    text-align:center;
+  }
+.explore-icon img{
+    width:100%;
+    height:100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.explore-ket{
+    width:100%;
+    padding:15px;
+}
+.explore-ket p{
+    line-height:10px;
+    padding-bottom:20px;
+}
+.explore-ket p span{
+    float:right;
+}
+.galleryslayer{
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(68, 67, 67);
+}
+.gallery{
+    float: left;
+    width: 31%;
+    height: 250px;
+    margin:10px;
+    
+}
+.gallery-icon{
+    width: 100%;
+    height: 100%;
+}
+.gallery-icon img{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
+.btn-gallery{
+    text-align: center;
+    position: relative;
+    top : 25px;
+}
+.exploregallery{
+    color: rgb(170, 114, 9);
+    font-weight:bold;
+    border: 1px solid  rgb(170, 114, 9);
+}
+.info_langganan{
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(212, 212, 212);
+}
+.info_langganan h2{
+    text-align: left;
+}
+.info_langganan p{
+    text-align: left;
+    font-size:normal;
+}
+.form{
+    text-align: center;
+}
+.email{
+    width : 400px;
+    margin-top : 10px;
+    margin-bottom : 15px;
+    padding : 10px;
+    border : 1px solid black;
+    border-radius: 4px;
+}
+.form-submit{
+    width : 100px;
+    margin-top : 10px;
+    margin-bottom : 15px;
+    padding : 10px;
+    background-color: black;
+    color : white;
+    border : 1px solid black;
+    border-radius: 4px;
+}
+.container-footer{
+    display: flex;
+}
+footer{
+    background-color: rgb(68, 67, 67);
+    color : white;
+    height: 120px;
+    padding : 30px;
+}
+.footer-logo img {
+    width: 125px;
+}
+.footer-menu ul{
+    display: flex;
+}
+.footer-menu a{
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    color:white;
+}
+.created {
+    margin-left: auto;
+    font-size: 12px;
+}
